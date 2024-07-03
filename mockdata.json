@@ -1,0 +1,167 @@
+{
+    "headerValues":{
+       "companyLogo": "logo.png",
+       "companyName":"Test Company Name",
+       "companyAddress1":"Test address 1",
+       "companyAddress2":"Test address 2",
+       "employeeName":"Test Employee Name",
+       "employeeId":"Test Employee ID",
+       "taxCode":"1245",
+       "payStart":"2024-03-27",
+       "payEnd":"2024-03-27"
+    },
+    "footerValues":{
+       "payDate":"2024-03-27",
+       "signature":{
+          
+       },
+       "designation":"Operation Manager"
+    },
+    "earningItems":[
+       {
+          "id":"1",
+          "description":"Stadard pay",
+          "hourlyRate":100,
+          "hours":10,
+          "fixedPayment": 500,
+          "payment":1000
+       },
+       {
+          "id":"2",
+          "description":"Overtime Pay",
+          "hourlyRate": 10.5,
+          "hours": 20,
+          "fixedPayment":5000,
+          "payment":200
+       },
+       {
+          "id":"3",
+          "description":"Custome Pay Type",
+          "hourlyRate": 120,
+          "hours": 25,
+          "fixedPayment": 50,
+          "payment":3000
+       }
+    ],
+    "deductionItems":[
+       {
+          "id":"1",
+          "description":"Pay tax",
+          "payment":100
+       },
+       {
+          "id":"2",
+          "description":"Custome type",
+          "payment":120
+       }
+    ],
+    "selectedCurrency":{
+       "name":"USD",
+       "symbol":"$",
+       "flag":{
+          "type":"svg",
+          "key":null,
+          "ref":null,
+          "props":{
+             "xmlns":"http://www.w3.org/2000/svg",
+             "id":"flag-icons-us",
+             "viewBox":"0 0 640 480",
+             "width":"24px",
+             "height":"24px",
+             "children":[
+                {
+                   "type":"path",
+                   "key":null,
+                   "ref":null,
+                   "props":{
+                      "fill":"#bd3d44",
+                      "d":"M0 0h640v480H0"
+                   },
+                   "owner":null,
+                   "store":{
+                      
+                   }
+                },
+                {
+                   "type":"path",
+                   "key":null,
+                   "ref":null,
+                   "props":{
+                      "stroke":"#fff",
+                      "strokeWidth":"37",
+                      "d":"M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640"
+                   },
+                   "owner":null,
+                   "store":{
+                      
+                   }
+                },
+                {
+                   "type":"path",
+                   "key":null,
+                   "ref":null,
+                   "props":{
+                      "fill":"#192f5d",
+                      "d":"M0 0h364.8v258.5H0"
+                   },
+                   "owner":null,
+                   "store":{
+                      
+                   }
+                },
+                {
+                   "type":"marker",
+                   "key":null,
+                   "ref":null,
+                   "props":{
+                      "id":"us-a",
+                      "markerHeight":"30",
+                      "markerWidth":"30",
+                      "children":{
+                         "type":"path",
+                         "key":null,
+                         "ref":null,
+                         "props":{
+                            "fill":"#fff",
+                            "d":"m14 0 9 27L0 10h28L5 27z"
+                         },
+                         "_owner":null,
+                         "_store":{
+                            
+                         }
+                      }
+                   },
+                   "owner":null,
+                   "store":{
+                      
+                   }
+                },
+                {
+                   "type":"path",
+                   "key":null,
+                   "ref":null,
+                   "props":{
+                      "fill":"none",
+                      "markerMid":"url(#us-a)",
+                      "d":"m0 0 16 11h61 61 61 61 60L47 37h61 61 60 61L16 63h61 61 61 61 60L47 89h61 61 60 61L16 115h61 61 61 61 60L47 141h61 61 60 61L16 166h61 61 61 61 60L47 192h61 61 60 61L16 218h61 61 61 61 60L0 0"
+                   },
+                   "owner":null,
+                   "store":{
+                      
+                   }
+                }
+             ]
+          },
+          "_owner":null,
+          "_store":{
+             
+          }
+       }
+    },
+    "color":"#0b3858",
+    "totals":{
+       "totalEarnings":4200,
+       "totalDeductions":220,
+       "netPay":3980
+    }
+ }
